@@ -12,37 +12,37 @@ let
   };
 
   msTeamsIcon = pkgs.fetchurl {
-    url = "https://cdn.icon-icons.com/icons2/2397/PNG/512/microsoft_office_teams_logo_icon_145726.png";
+    url = "https://icon-icons.com/downloadimage.php?id=145726&root=2397/PNG/512/&file=microsoft_office_teams_logo_icon_145726.png";
     sha256 =  "0b9nmxm03r90a3fdfyzrwk4f7plv74699w5ir369nd24m0zx5ry3";
  };
 
  msOutlookIcon = pkgs.fetchurl {
-  url = "https://cdn.icon-icons.com/icons2/2397/PNG/512/microsoft_office_outlook_logo_icon_145721.png";
+  url = "https://icon-icons.com/downloadimage.php?id=145721&root=2397/PNG/512/&file=microsoft_office_outlook_logo_icon_145721.png";
   sha256="0lwd3x2c3jgzi7pkynrahijbi5a2l60l49k98g9jvcvp8a5pk27a";
  };
 
  rocketChatIcon = pkgs.fetchurl {
-  url = "https://cdn.icon-icons.com/icons2/2621/PNG/512/brand_rocket_chat_icon_157334.png";
+  url = "https://icon-icons.com/downloadimage.php?id=157334&root=2621/PNG/512/&file=brand_rocket_chat_icon_157334.png";
   sha256 = "1rc3b8fgp6a4dpmndhp2b8fczhp7mmmxh624y58hr43xxzr7y1yb";
  };
 
  redditIcon = pkgs.fetchurl {
-  url = "https://cdn.icon-icons.com/icons2/1195/PNG/512/1490889653-reddit_82537.png";
+  url = "https://icon-icons.com/downloadimage.php?id=82537&root=1195/PNG/512/&file=1490889653-reddit_82537.png";
   sha256 = "01ja74q5i797s0cfhr8byqq1bzzix23hswimij663ylm864w7lna";
  };
 
  twitterIcon = pkgs.fetchurl {
-  url = "https://cdn.icon-icons.com/icons2/836/PNG/512/Twitter_icon-icons.com_66803.png";
+  url = "https://icon-icons.com/downloadimage.php?id=66803&root=836/PNG/512/&file=Twitter_icon-icons.com_66803.png";
   sha256 = "1mlqxxj2rwwv439lvdv4k4djhmwk92lv1riywk94r9hcmk5bbs92";
  };
 
  vimCheatSheetIcon = pkgs.fetchurl {
-  url = "https://cdn.icon-icons.com/icons2/1381/PNG/512/vim_94609.png";
+  url = "https://icon-icons.com/downloadimage.php?id=94609&root=1381/PNG/512/&file=vim_94609.png";
   sha256 = "0fnrcrsrrnchrgjbg0hszynj2g2m674b3nc4ky8pdb3zgc1490sc";
  };
 
  youtubeMusicIcon = pkgs.fetchurl {
-  url ="https://cdn.icon-icons.com/icons2/3132/PNG/512/youtube_music_social_network_song_multimedia_icon_192250.png";
+  url ="https://icon-icons.com/downloadimage.php?id=192250&root=3132/PNG/512/&file=youtube_music_social_network_song_multimedia_icon_192250.png";
   sha256 = "0hxwh8x4xmpa9rpmscds9sip08a6xz9s58xncd2mlnyzh8pa447b";
  };
 
