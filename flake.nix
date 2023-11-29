@@ -20,8 +20,8 @@
     inputs@{ self, nixpkgs, home-manager, darwin, nix-index-database, ... }: {
       nixosConfigurations = let
         userDetails = {
-          fullName = "Andre Aragao";
-          userName = "aragao";
+          fullName = "Gil Osher";
+          userName = "gosher";
         };
         desktopDetails = { dpi = 192; };
 
@@ -90,14 +90,14 @@
               home-manager = {
                 useGlobalPkgs = true;
                 useUserPackages = true;
-                enableNixpkgsReleaseCheck = false;
+                # enableNixpkgsReleaseCheck = false;
                 users.${userDetails.userName} = {
                   home = {
                     username = "${userDetails.userName}";
                     homeDirectory = "/home/${userDetails.userName}";
                     # do not change this value
                     stateVersion = "23.11";
-                    enableNixpkgsReleaseCheck = false;
+                    # enableNixpkgsReleaseCheck = false;
                   };
 
                   # Let Home Manager install and manage itself.
@@ -136,10 +136,10 @@
                 useGlobalPkgs = true;
                 useUserPackages = true;
 
-                users.aragao = {
+                users.gosher = {
                   home = {
-                    username = "aragao";
-                    homeDirectory = "/Users/aragao";
+                    username = "gosher";
+                    homeDirectory = "/Users/gosher";
                     # do not change this value
                     stateVersion = "23.11";
                   };
