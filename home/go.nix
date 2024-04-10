@@ -4,7 +4,6 @@ with lib;
   config = {
     home.packages = with pkgs; [
       go
-      dep
       dep2nix
       go2nix
       # editor support
