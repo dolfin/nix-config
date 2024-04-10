@@ -9,11 +9,11 @@
     ...
 }:
 let
-  lfIcons = pkgs.fetchurl {
-    url =
-      "https://raw.githubusercontent.com/gokcehan/lf/master/etc/icons.example";
-    sha256 = "0hxbniw1avl02sdbjx4jdr80kbrlnbm86crfm44rfrs9bkjapda1";
-  };
+  #lfIcons = pkgs.fetchurl {
+    #url =
+      #"https://raw.githubusercontent.com/gokcehan/lf/master/etc/icons.example";
+    #sha256 = "0hxbniw1avl02sdbjx4jdr80kbrlnbm86crfm44rfrs9bkjapda1";
+  #};
   lfColors = pkgs.fetchurl {
     url =
       "https://raw.githubusercontent.com/gokcehan/lf/master/etc/colors.example";
@@ -39,7 +39,7 @@ in
       esac
     '';
   };
-  xdg.configFile."lf/icons" = { source = lfIcons; };
+  #xdg.configFile."lf/icons" = { source = lfIcons; };
   xdg.configFile."lf/colors" = {source = lfColors; };
   xdg.configFile."Thunar/uca.xml" = { source = ./uca.xml; };
   xdg.configFile."xfce4/xfconf/xfce-perchannel-xml/thunar.xml" = { source = ./thunar.xml; };
