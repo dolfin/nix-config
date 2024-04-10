@@ -90,7 +90,7 @@
               home-manager = {
                 useGlobalPkgs = true;
                 useUserPackages = true;
-                enableNixpkgsReleaseCheck = false;
+                #enableNixpkgsReleaseCheck = false;
                 users.${userDetails.userName} = {
                   home = {
                     username = "${userDetails.userName}";
