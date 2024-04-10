@@ -14,7 +14,7 @@ in
         padding = { y = 5; x = 5; };
         opacity = 0.95;
         dynamic_title = true;
-        dpi = 192;
+        #dpi = 192;
       };
 
       font = {
@@ -23,7 +23,7 @@ in
 
         bold.style = if isLinux then "Bold" else "Bold";
         italic.style = if isLinux then "Italic" else "Italic";
-        bold_italic.stype = if isLinux then "Bold Italic" else "Bold Italic";
+        bold_italic.style = if isLinux then "Bold Italic" else "Bold Italic";
         size = if isLinux then 10 else 12; 
       };
 
@@ -65,13 +65,13 @@ in
           foreground = "#191724";
           background = "#ebbcba";
         };
-        colors.hints.start = {
+        hints.start = {
           foreground = "#908caa";
           background = "#1f1d2e";
         };
-        colors.line_indicator = {
+        line_indicator = {
           foreground = "None";
-          bcakground = "None";
+          background = "None";
         };
         footer_bar = {
           foreground = "#e0def4";
@@ -131,7 +131,7 @@ in
 
       };
 
-      key_bindings = [
+      keyboard.bindings = [
       { key = "Return"; mods = "Control|Shift"; action = "SpawnNewInstance"; }
       ];
     };

@@ -79,6 +79,7 @@
       "microsoft-teams"
       "obsidian"
       "flameshot"
+      "alacritty"
     ];
   };
 
