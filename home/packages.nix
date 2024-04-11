@@ -69,7 +69,7 @@ in {
     jq
     yq
     gdu
-    obsidian
+    #obsidian
     zathura
     asciinema
     flameshot
