@@ -52,11 +52,11 @@ swapon "/dev/${device}2"
 nix-env -iA nixos.git
 nix-env -iA nixos.nixFlakes
 
-git clone https://github.com/andreaugustoaragao/nix-config
+git clone https://github.com/dolfin/nix-config
 cd nix-config
-echo "Please enter login (eg.: aragao): "
+echo "Please enter login (eg.: gosher): "
 read userName < /dev/tty
-echo "Please enter full name (eg.: Andre Aragao): "
+echo "Please enter full name (eg.: Gil Osher): "
 read fullName < /dev/tty
 
 while true; do
